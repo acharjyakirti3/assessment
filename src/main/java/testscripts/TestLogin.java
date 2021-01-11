@@ -27,17 +27,14 @@ public class TestLogin extends BaseTest {
 			
 			asr.username().click();
 			asr.username().sendKeys(username);
-			Thread.sleep(4000);
 			
 			asr.ContinueButton().click();
-			Thread.sleep(4000);
 			
 			asr.Password().clear();
 			asr.Password().sendKeys(pwd);
-			Thread.sleep(4000);
-			
+
 			asr.LogInButton().click();
-			Thread.sleep(7000);
+			Thread.sleep(2000);
 			
 			Reporter.log("Login Successfull",true);			
 		}

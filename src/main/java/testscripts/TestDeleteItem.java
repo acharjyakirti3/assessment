@@ -1,14 +1,11 @@
 package testscripts;
-import java.util.ArrayList;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import library.BaseTest;
-import pageobject.AddtoCartPO;
 import pageobject.AmazonSearchResultPO;
 
 public class TestDeleteItem extends BaseTest{
@@ -25,14 +22,11 @@ public class TestDeleteItem extends BaseTest{
 			
 			asr.username().click();
 			asr.username().sendKeys(username);
-			Thread.sleep(4000);
 			
 			asr.ContinueButton().click();
-			Thread.sleep(4000);
 			
 			asr.Password().clear();
 			asr.Password().sendKeys(pwd);
-			Thread.sleep(4000);
 			
 			asr.LogInButton().click();
 			
@@ -43,7 +37,7 @@ public class TestDeleteItem extends BaseTest{
 		    WebElement deletebutton=driver.findElement(By.xpath("(//input[@class='a-color-link'])[1]"));
 		    deletebutton.click();
 		    
-		    Thread.sleep(10000);
+		    Thread.sleep(6000);
 		    Reporter.log("item is deleted from cart successfully",true);	
 		}
 		catch(Exception e) {
