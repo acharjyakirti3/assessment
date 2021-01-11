@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Successfull]]>
+    </line>
+    <line>
+      <![CDATA[item added to cart successfully]]>
+    </line>
+    <line>
+      <![CDATA[item is deleted from cart successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-01-11T18:00:47 IST" name="Suite" finished-at="2021-01-11T18:03:28 IST" duration-ms="160721">
+    <groups>
+    </groups>
+    <test started-at="2021-01-11T18:00:47 IST" name="Test" finished-at="2021-01-11T18:03:28 IST" duration-ms="160721">
+      <class name="testscripts.TestLogin">
+        <test-method is-config="true" signature="launchBrowserAndApplication()[pri:0, instance:testscripts.TestLogin@6f46426d]" started-at="2021-01-11T18:00:47 IST" name="launchBrowserAndApplication" finished-at="2021-01-11T18:00:57 IST" duration-ms="9909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndApplication -->
+        <test-method signature="amazonsignin()[pri:0, instance:testscripts.TestLogin@6f46426d]" started-at="2021-01-11T18:00:57 IST" name="amazonsignin" finished-at="2021-01-11T18:01:22 IST" duration-ms="25686" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amazonsignin -->
+        <test-method is-config="true" signature="closeBrowserAndApplication()[pri:0, instance:testscripts.TestLogin@6f46426d]" started-at="2021-01-11T18:01:22 IST" name="closeBrowserAndApplication" finished-at="2021-01-11T18:01:23 IST" duration-ms="730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserAndApplication -->
+      </class> <!-- testscripts.TestLogin -->
+      <class name="testscripts.TestAddtoCart">
+        <test-method is-config="true" signature="launchBrowserAndApplication()[pri:0, instance:testscripts.TestAddtoCart@73700b80]" started-at="2021-01-11T18:01:23 IST" name="launchBrowserAndApplication" finished-at="2021-01-11T18:01:31 IST" duration-ms="7613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndApplication -->
+        <test-method signature="addtocart()[pri:0, instance:testscripts.TestAddtoCart@73700b80]" started-at="2021-01-11T18:01:31 IST" name="addtocart" finished-at="2021-01-11T18:02:32 IST" duration-ms="60990" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[item added to cart successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+        <test-method is-config="true" signature="closeBrowserAndApplication()[pri:0, instance:testscripts.TestAddtoCart@73700b80]" started-at="2021-01-11T18:02:32 IST" name="closeBrowserAndApplication" finished-at="2021-01-11T18:02:33 IST" duration-ms="776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserAndApplication -->
+      </class> <!-- testscripts.TestAddtoCart -->
+      <class name="testscripts.TestDeleteItem">
+        <test-method is-config="true" signature="launchBrowserAndApplication()[pri:0, instance:testscripts.TestDeleteItem@49c7b90e]" started-at="2021-01-11T18:02:33 IST" name="launchBrowserAndApplication" finished-at="2021-01-11T18:02:41 IST" duration-ms="8610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndApplication -->
+        <test-method signature="deleteitem()[pri:0, instance:testscripts.TestDeleteItem@49c7b90e]" started-at="2021-01-11T18:02:41 IST" name="deleteitem" finished-at="2021-01-11T18:03:27 IST" duration-ms="45620" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[item is deleted from cart successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteitem -->
+        <test-method is-config="true" signature="closeBrowserAndApplication()[pri:0, instance:testscripts.TestDeleteItem@49c7b90e]" started-at="2021-01-11T18:03:27 IST" name="closeBrowserAndApplication" finished-at="2021-01-11T18:03:28 IST" duration-ms="754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserAndApplication -->
+      </class> <!-- testscripts.TestDeleteItem -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
